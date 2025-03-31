@@ -1,9 +1,9 @@
-from agents.tools import Tool
-from core.llm import LLMInterface
+from agents.tools import Tools
+from core.llm import call_llm
 
 class CodeGenerationAgent:
     def __init__(self, config):
-        self.llm = LLMInterface(config['llm_settings'])
+        self.llm = call_llm(config['llm_settings'])
         self.tools = {
             'generate_code': self.generate_code,
             'explain_code': self.explain_code
