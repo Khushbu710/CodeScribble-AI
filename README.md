@@ -52,7 +52,7 @@ VECTOR_DB_HOST=127.0.0.1
 VECTOR_DB_PORT=5432
 VECTOR_DB_NAME=heuristdb
 VECTOR_DB_USER=heuristuser
-VECTOR_DB_PASSWORD=khushbu.sharma7105
+VECTOR_DB_PASSWORD=<password>
 VECTOR_DB_TABLE=vector_table
 
 Start PostgreSQL and Create a Database:
